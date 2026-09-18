@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy-friendly device information tool. All information is processed locally in your browser.">
+    <title>Device Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>📱 Device Info</h1>
+            <p>Your device information, displayed locally.</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <div class="privacy-banner">
+            🔒 <strong>Privacy-friendly</strong>
+            <span>Your information is processed locally and is not sent to a server.</span>
+        </div>
+
+        <div class="actions">
+            <button id="refreshBtn">↻ Refresh Information</button>
+        </div>
+
+        <section class="info-grid">
+
+            <div class="info-card">
+                <h2>📱 Device</h2>
+
+                <div class="info-row">
+                    <span>Device Type</span>
+                    <strong id="deviceType">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Operating System</span>
+                    <strong id="os">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Touch Support</span>
+                    <strong id="touchSupport">Loading...</strong>
+                </div>
+
+            </div>
+
+            <div class="info-card">
+                <h2>🌐 Browser</h2>
+
+                <div class="info-row">
+                    <span>Browser</span>
+                    <strong id="browser">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Language</span>
+                    <strong id="language">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Cookies</span>
+                    <strong id="cookies">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Do Not Track</span>
+                    <strong id="dnt">Loading...</strong>
+                </div>
+
+            </div>
+
+            <div class="info-card">
+                <h2>🖥️ Display</h2>
+
+                <div class="info-row">
+                    <span>Screen Resolution</span>
+                    <strong id="screenResolution">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Available Screen</span>
+                    <strong id="availableScreen">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Pixel Ratio</span>
+                    <strong id="pixelRatio">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Window Size</span>
+                    <strong id="windowSize">Loading...</strong>
+                </div>
+
+            </div>
+
+            <div class="info-card">
+                <h2>⚙️ Hardware</h2>
+
+                <div class="info-row">
+                    <span>CPU Cores</span>
+                    <strong id="cpuCores">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Device Memory</span>
+                    <strong id="deviceMemory">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Max Touch Points</span>
+                    <strong id="maxTouchPoints">Loading...</strong>
+                </div>
+
+            </div>
+
+            <div class="info-card">
+                <h2>📡 Network</h2>
+
+                <div class="info-row">
+                    <span>Status</span>
+                    <strong id="networkStatus">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Connection Type</span>
+                    <strong id="connectionType">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Effective Type</span>
+                    <strong id="effectiveType">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>RTT</span>
+                    <strong id="rtt">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Downlink</span>
+                    <strong id="downlink">Loading...</strong>
+                </div>
+
+            </div>
+
+            <div class="info-card">
+                <h2>🔒 Privacy</h2>
+
+                <div class="info-row">
+                    <span>Timezone</span>
+                    <strong id="timezone">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Local Time</span>
+                    <strong id="localTime">Loading...</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Online</span>
+                    <strong id="online">Loading...</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="user-agent">
+            <h2>🔎 User Agent</h2>
+            <code id="userAgent">Loading...</code>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Device Info • Privacy-friendly • No backend • No tracking</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+  </html>
