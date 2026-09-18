@@ -63,14 +63,9 @@ Device-Info/
 ├── README.md
 └── LICENSE
 
-## 🌐 Live Demo
+🌐 Live Demo
+https://mireli5656.github.io/Device-Info/
 
-[Open Device Info](https://mireli5656.github.io/Device-Info/)
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
+📄 License
+This project is licensed under the MIT License.
 Made as a simple side project for checking browser and device information.
